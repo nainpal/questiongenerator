@@ -126,7 +126,7 @@ public class QuestionAgregator {
         System.out.println("Final Size of question schuffle:"+allProviderQuestion.size());
 
         System.out.println("Before schuffle:"+allProviderQuestion);
-        Collections.shuffle(allProviderQuestion);
+        //Collections.shuffle(allProviderQuestion);
         System.out.println("After schuffle:"+allProviderQuestion);
 
         QuestionsCollection questionsCollection = new QuestionsCollection();

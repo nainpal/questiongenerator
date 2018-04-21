@@ -1,5 +1,6 @@
 package com.questiongenerator;
 
+import com.questiongenerator.pdfquestionreader.PDFReader;
 import com.questiongenerator.questionprovider.QuestionProviderGKHindiInSite;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -25,6 +26,8 @@ public class Application {
     CommandLineRunner runner(){
         return args->{
             questionAgregator.generate();
+            //PDFReader reader = new PDFReader();
+            //reader.read();
         };
     }
 
